@@ -1,7 +1,9 @@
-### **1. Collection Interface Hierarchy**
+### ** Collection Interface Hierarchy**
 The **Collections Framework** in Java has a structured hierarchy of interfaces and classes. At the top, we have the `Collection` interface, which is extended by `List`, `Set`, and others.
 
 ---
+
+### **1. Avoiding Getting Lost in the Collection Hierarchy**
 
 ### **2. Iterable Interface**
 - The `Iterable` interface is not part of the Collections Framework but is important because all collections implement it.
