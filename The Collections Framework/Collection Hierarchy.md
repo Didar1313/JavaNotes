@@ -22,12 +22,14 @@ The `Collection` interface provides basic functionalities like:
 - **Getting the Size of the Collection**
 - **Performing Set Operations** (union, intersection, complement)
 - **Iterating Over Elements**
-- Collection<String> collection = new ArrayList<>();
-- collection.add("Apple");     // Add element
-- collection.remove("Apple");  // Remove element
-- System.out.println(collection.contains("Apple"));  // Check existence
-- System.out.println(collection.size());  // Get size
-- collection.clear();  // Remove all elements
+  ```java
+  Collection<String> collection = new ArrayList<>();
+  collection.add("Apple");     // Add element
+  collection.remove("Apple");  // Remove element
+  System.out.println(collection.contains("Apple"));  // Check existence
+  System.out.println(collection.size());  // Get size
+  collection.clear();  // Remove all elements
+  ```
 
 ---
 
