@@ -15,17 +15,23 @@ The **Collections Framework** in Java has a structured hierarchy of interfaces a
 
 ---
 
-### **3. Collection Interface (Core Operations)**
+### **3. Storing Elements in a Container with the Collection Interface)**
 The `Collection` interface provides basic functionalities like:
 - **Adding & Removing Elements**
 - **Checking if an Element Exists**
 - **Getting the Size of the Collection**
 - **Performing Set Operations** (union, intersection, complement)
 - **Iterating Over Elements**
+Collection<String> collection = new ArrayList<>();
+collection.add("Apple");     // Add element
+collection.remove("Apple");  // Remove element
+System.out.println(collection.contains("Apple"));  // Check existence
+System.out.println(collection.size());  // Get size
+collection.clear();  // Remove all elements
 
 ---
 
-### **4. List Interface (Ordered Collection)**
+### **4. Extending Collection with List**
 - A `List` maintains the order of elements as they were added.
 - **Indexes** are used to access elements.
 - Key operations include:
@@ -61,4 +67,3 @@ The `Collection` interface provides basic functionalities like:
 - **Sorting**: Elements are arranged in order based on a comparison logic (`SortedSet`).
 - **Ordering**: Elements remain in the order they were added (`List`).
 
-Let me know if you need further clarification! 🚀
