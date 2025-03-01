@@ -1,1 +1,30 @@
+# Storing Data Using the Collections Framework  
 
+The **Collections Framework** in Java provides efficient ways to store and manage data in memory. It was introduced in **Java SE 2 (1998)** and improved in **Java SE 5** (with generics) and **Java SE 8** (with lambda expressions and default methods).  
+
+## Key Concepts  
+- **Interfaces & Implementations** – The framework provides interfaces (like `List`, `Set`, `Map`) and their implementations (`ArrayList`, `HashMap`, etc.).  
+- **Main Categories:**  
+  - **Collections** – Store and iterate over objects.  
+  - **Maps** – Store key-value pairs.  
+  - **Queues & Stacks** – Manage elements in a specific order.  
+  - **Iterators** – Traverse collections.  
+
+## Choosing the Right Collection  
+| Collection Type | Example Implementations | Usage |
+|---------------|----------------------|------------------------------|
+| **List** | `ArrayList`, `LinkedList` | Ordered elements, allows duplicates. |
+| **Set** | `HashSet`, `TreeSet` | Unique elements, no duplicates. |
+| **Queue** | `PriorityQueue`, `ArrayDeque` | FIFO (First-In-First-Out) operations. |
+| **Map** | `HashMap`, `TreeMap` | Key-value pairs for fast lookups. |
+
+## Avoid Using Old Classes  
+❌ **`Vector` & `Stack`** → ✅ Use `ArrayList` & `ArrayDeque`  
+❌ **`Hashtable`** → ✅ Use `HashMap` or `ConcurrentHashMap`  
+
+## Why Use Collections Over Arrays?  
+✔ **Dynamic resizing** – Collections grow automatically.  
+✔ **Built-in utilities** – Search, sort, merge, and filter data easily.  
+✔ **Better performance** – Optimized for different use cases.  
+
+Using the **right collection** improves performance and makes Java applications more scalable and maintainable! 🚀  
